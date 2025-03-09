@@ -8,7 +8,7 @@ export default function Poemas() {
 
   const fetchPoem = async () => {
     try {
-      const genAI = new GoogleGenerativeAI("AIzaSyAgWZfuNinha-GWomCnsZDH0Kbf7AXgJBQ");
+      const genAI = new GoogleGenerativeAI("TU_API_AQUI");
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
       const prompt =
         "Escríbeme un poema corto y melancólico sobre la vida.";
